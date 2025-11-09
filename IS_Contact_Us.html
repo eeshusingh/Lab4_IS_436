@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Contact | UMBC Department of Information Systems</title>
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+  <!-- Simple header to match other pages -->
+  <header class="topbar">
+    <div class="container">
+      <a class="brand" href="IS_Home.html"><span class="logo" aria-hidden="true"></span> UMBC</a>
+      <nav class="nav" aria-label="Main">
+        <a href="IS_Home.html">Home</a>
+        <a href="IS_UndergradProgram.html">Program</a>
+        <a class="active" href="IS_Contact_Us.html">Contact Us</a>
+      </nav>
+    </div>
+  </header>
+
+  <!-- Matching hero -->
+  <section class="hero-wrap">
+    <div class="container">
+      <h1>Contact Us</h1>
+      <p class="lead">We're here to help - reach out with questions about our programs, events, or opportunities.</p>
+    </div>
+  </section>
+
+  <hr class="sep" />
+
+  <!-- Two-column contact content -->
+  <section class="container" style="padding: 8px 0 40px; display: grid; grid-template-columns: 1fr 1fr; gap: 24px;">
+    <div>
+      <h3>Department Office</h3>
+      <p class="muted">ITE Building, Suite 404<br />UMBC, Baltimore, MD 21250</p>
+      <p>Phone: 410-455-3206<br />Email: <a href="mailto:is@umbc.edu">is@umbc.edu</a></p>
+    </div>
+    <form onsubmit="return false" style="display: grid; gap: 10px;">
+      <label>Name<input type="text" required style="width:100%;padding:8px;border:1px solid #ddd;border-radius:6px;" /></label>
+      <label>Email<input type="email" required style="width:100%;padding:8px;border:1px solid #ddd;border-radius:6px;" /></label>
+      <label>Message<textarea rows="5" required style="width:100%;padding:8px;border:1px solid #ddd;border-radius:6px;"></textarea></label>
+      <button class="btn gold" type="submit">Send</button>
+    </form>
+  </section>
+
+  <footer class="footer">
+    <div class="container">
+      <div>
+        <h4>Features</h4>
+        <ul><li><a href="#">Cool stuff</a></li><li><a href="#">Random feature</a></li></ul>
+      </div>
+      <div>
+        <h4>Resources</h4>
+        <ul><li><a href="#">Resource</a></li><li><a href="#">Another one</a></li></ul>
+      </div>
+      <div>
+        <h4>About</h4>
+        <ul><li><a href="#">Team</a></li><li><a href="#">Contact</a></li></ul>
+      </div>
+    </div>
+  </footer>
+</body>
+</html>
+
